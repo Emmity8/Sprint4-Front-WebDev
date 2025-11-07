@@ -44,8 +44,37 @@ Este projeto foi desenvolvido como parte de um desafio acadêmico, com o objetiv
 -   ✅ **Design Responsivo:** Interface totalmente adaptada para desktops, tablets e celulares.
 -   ✅ **Roteamento:** Navegação fluida entre as páginas utilizando React Router.
 -   ⏳ **Autenticação de Usuários:** Sistema de login e perfil de usuário (em desenvolvimento).
+-   🏆 **Integração com API TheSportsDB:** Exibição automática de
+    partidas e informações reais sobre equipes e ligas femininas.
 
 ---
+
+## 🧩 Integração da API com TheSportsDB
+
+O projeto agora consome dados em tempo real da **[TheSportsDB
+API](https://www.thesportsdb.com/)**, uma base pública de informações
+esportivas. Com essa integração, o **Passa a Bola** traz resultados,
+próximos confrontos e detalhes de clubes e jogadoras diretamente de uma
+fonte atualizada.
+
+### 🔍 Funcionalidades da API no Projeto:
+
+-   Listagem de partidas de campeonatos femininos (passadas e futuras).
+-   Detalhes sobre clubes, incluindo escudo e país de origem.
+-   Atualização dinâmica das partidas na **homepage**.
+-   Base para futuras expansões, como estatísticas de jogadoras e
+    tabelas de classificação.
+
+### 🧠 Tecnologias Utilizadas na Integração:
+
+-   **Axios** para realizar as requisições HTTP.
+-   **useEffect + useState (React Hooks)** para gerenciar os dados da
+    API.
+-   **Tratamento de erros** e mensagens de carregamento para melhor
+    experiência do usuário.
+
+---
+
 
 ## 🎨 Paleta de Cores
 
@@ -71,6 +100,8 @@ Este projeto foi construído utilizando as seguintes tecnologias e ferramentas:
 -   **[React Router](https://reactrouter.com/)**: Para gerenciamento de rotas e navegação.
 -   **[Heroicons](https://heroicons.com/)**: Biblioteca de ícones SVG de alta qualidade.
 -   **[Axios](https://axios-http.com/)**: Para realizar o consumo de APIs (planejado).
+-   **[TheSportsDB API](https://www.thesportsdb.com/)**: Fonte de
+    dados esportivos em tempo real.
 
 ---
 
@@ -116,7 +147,7 @@ O projeto é organizado de forma modular para facilitar a manutenção e escalab
 ## 👨‍💻 Autores
 
 Desenvolvido por:
-**[Guilherme Moura Gama - RM: 562162]**.
-**[Guilherme Ruiz Costa - RM: 563236]**.
-**[João Batista Lima Neto - RM: 563426]**.
-**[Júlio César Augusto Vieira - RM: 563366]**.
+- **Guilherme Moura Gama - RM: 562162**.
+- **Guilherme Ruiz Costa - RM: 563236**.
+- **João Batista Lima Neto - RM: 563426**.
+- **Júlio César Augusto Vieira - RM: 563366**.
